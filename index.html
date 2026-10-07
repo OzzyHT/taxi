@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Taxiteori – testversion</title>
+<style>
+  :root { --taxi: #FFC400; --text: #1B1B1F; --muted: #5E5E66; --bg: #F7F6F2; }
+  body { margin: 0; font: 17px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--text); background: var(--bg); }
+  header { background: var(--taxi); padding: 20px 16px; }
+  header h1 { margin: 0; font-size: 26px; }
+  main { max-width: 680px; margin: 0 auto; padding: 16px; }
+  .card { background: #fff; border: 1px solid #E3E1DA; border-radius: 14px; padding: 16px; margin: 12px 0; }
+  .btn { display: block; text-align: center; background: var(--taxi); color: var(--text); font-weight: 700; font-size: 18px; text-decoration: none; padding: 14px; border-radius: 12px; margin: 16px 0; }
+  .muted { color: var(--muted); }
+  a { color: #8A6A00; }
+  ol { padding-left: 22px; }
+  [dir=rtl] { text-align: right; }
+</style>
+</head>
+<body>
+<header><h1>Taxiteori</h1></header>
+<main>
+  <p><strong>Tack för att du testar!</strong> Taxiteori är en övningsapp inför kunskapsproven för taxiförarlegitimation. Det här är en testversion med ett urval av frågorna. Den fungerar i mobilen och på datorn.</p>
+  <a class="btn" href="app/">Öppna appen</a>
+  <div class="card">
+    <h2>Det vi vill veta</h2>
+    <ol>
+      <li>Var något krångligt, fult eller svårt att hitta?</li>
+      <li>Är någon fråga fel eller otydlig? Skriv frågans nummer, till exempel F01. Det står under förklaringen.</li>
+      <li>Läser du förklaringarna på arabiska, persiska eller engelska: låter de naturliga? Språket väljer du under Inställningar.</li>
+      <li>Har du skrivit taxiprovet själv: liknar frågorna det riktiga provet?</li>
+    </ol>
+    <p>Svara på meddelandet du fick länken i. En mening räcker.</p>
+  </div>
+  <div class="card" dir="rtl" lang="ar">
+    <p><strong>شكرًا لتجربتك!</strong> هذا تطبيق للتدرّب على الاختبار النظري لرخصة سائق التاكسي في السويد. الأسئلة باللغة السويدية مثل الاختبار الحقيقي، والشرح متوفر بالعربية. اختر اللغة من «Inställningar».</p>
+    <p>هل الشرح بالعربية واضح وطبيعي؟ هل تشبه الأسئلة الاختبار الحقيقي؟ أرسل ملاحظاتك ردًّا على الرسالة التي وصلك فيها الرابط.</p>
+  </div>
+  <div class="card">
+    <h2>Till dig som är taxilärare</h2>
+    <p>De 20 frågor där rätt svar är ett omdöme finns också som ett ark att läsa utan appen: <a href="granskning.html">Bedömningsfrågorna</a>. Cirka 25 minuter.</p>
+  </div>
+  <p class="muted">Appen sparar dina svar bara i din egen webbläsare. Inget skickas någonstans. <a href="integritet.html">Integritetspolicy</a>.</p>
+  <p class="muted">Taxiteori är inte en officiell app från Trafikverket eller Transportstyrelsen.</p>
+</main>
+</body>
+</html>
