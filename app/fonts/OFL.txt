@@ -1,0 +1,4 @@
+Typsnittet i designspåret Papper (2026-11-04).
+Fraunces-600.woff2: Fraunces, vikt 600, latinska tecken. Copyright The Fraunces Project Authors.
+SIL Open Font License 1.1: https://openfontlicense.org
+De andra spåren använder systemets typsnitt: SF i iPhone, Segoe UI Variable i Windows, Roboto i Android.
